@@ -140,6 +140,8 @@ Test-Path "C:\Program Files\7-Zip\7zFM.exe"
 ✔️ Résultat : **True → application installée avec succès**
 
 ---
+ <img width="1081" height="822" alt="image" src="https://github.com/user-attachments/assets/aa8b0342-85a9-4a32-aa08-46892cde15ca" />
+
 
 ## 🧠 Compétences acquises
 
