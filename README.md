@@ -29,6 +29,7 @@ Mettre en place un environnement Microsoft Intune et déployer une application W
 ```powershell
 dsregcmd /status
 ```
+<img width="603" height="175" alt="Capture d&#39;écran 2026-04-15 234902" src="https://github.com/user-attachments/assets/47ec18fd-cb05-4f46-a315-0db16712c800" />
 
 ---
 
@@ -42,6 +43,7 @@ C:\Intune\7zip
 ```
 
 * Placement du fichier `7zip.exe` dans ce dossier
+<img width="1189" height="683" alt="Capture d&#39;écran 2026-04-16 000542" src="https://github.com/user-attachments/assets/b67dd730-0505-4eec-88b3-5c5e500175fe" />
 
 ---
 
@@ -52,6 +54,7 @@ C:\Intune\7zip
 ```powershell
 .\IntuneWinAppUtil.exe -c C:\Intune\7zip -s 7zip.exe -o C:\Intune
 ```
+<img width="1024" height="722" alt="Capture d&#39;écran 2026-04-16 000556" src="https://github.com/user-attachments/assets/0e530940-6865-46dc-8f2d-650f20f0eaba" />
 
 * Génération du fichier :
 
@@ -65,6 +68,7 @@ C:\Intune\7zip
 
 * Type : **Windows app (Win32)**
 * Upload du fichier `.intunewin`
+<img width="885" height="653" alt="Capture d&#39;écran 2026-04-16 000705" src="https://github.com/user-attachments/assets/e623c1e1-d1ac-452f-bacb-3a80256c9058" />
 
 #### Configuration :
 
@@ -73,12 +77,14 @@ C:\Intune\7zip
 ```
 7zip.exe /S
 ```
+<img width="1920" height="1032" alt="Capture d&#39;écran 2026-04-16 000904" src="https://github.com/user-attachments/assets/83a4be51-2ab9-4afa-90b5-d9f83b84c5ca" />
 
 * **Uninstall command**
 
 ```
 "C:\Program Files\7-Zip\Uninstall.exe" /S
 ```
+<img width="1920" height="1080" alt="Capture d&#39;écran 2026-04-16 003653" src="https://github.com/user-attachments/assets/883a3172-b03c-4af1-9134-745023f39a2d" />
 
 * **Install behavior**
 
@@ -104,6 +110,7 @@ C:\Program Files\7-Zip
 ```
 
 * Method : Exists
+<img width="1920" height="1080" alt="Capture d&#39;écran 2026-04-16 004922" src="https://github.com/user-attachments/assets/3a01c3de-9347-4df3-9629-c69de2eb496c" />
 
 ---
 
@@ -127,6 +134,8 @@ dsregcmd /refreshprt
 ```powershell
 Test-Path "C:\Program Files\7-Zip\7zFM.exe"
 ```
+<img width="741" height="305" alt="Capture d&#39;écran 2026-04-16 010351" src="https://github.com/user-attachments/assets/5a5f7591-08d9-47ef-b29d-f2839a4450fb" />
+
 
 ✔️ Résultat : **True → application installée avec succès**
 
