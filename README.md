@@ -151,7 +151,7 @@ Test-Path "C:\Program Files\7-Zip\7zFM.exe"
 
 ---
 
-## 🚀 Conclusion
+## 🚀 Conclusion 
 
 Ce lab m’a permis de comprendre le processus complet de déploiement d’application via Microsoft Intune, depuis le packaging jusqu’à l’installation automatique sur un poste client.
 
